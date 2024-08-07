@@ -14,13 +14,11 @@ const Actor = sequelize.define('actor', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    Image: {
+    image: {
         type: DataTypes.STRING,
-        allowNull: false
     },
-    bithday: {
+    birthday: {
         type: DataTypes.DATEONLY,
-        allowNull: false
     },
 });
 
